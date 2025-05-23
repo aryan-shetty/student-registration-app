@@ -17,6 +17,8 @@ const RegistrationList = ({registrations, onEdit, onDelete}) => {
 
 export default RegistrationList
 
+// TABLE FORMAT BELOW (EDITING DOESNT WORK IN IT)
+
 /*
 const RegistrationList = ({registrations, onEdit, onDelete}) => {
   return (
