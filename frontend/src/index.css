@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+nav {
+  margin: 10px;
+  padding: 10px;
+  background: #333;
+}
+
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+form {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+input, select {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  background: white;
+  border-radius: 6px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
